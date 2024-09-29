@@ -17,14 +17,14 @@ title: 📓 IEEE Software Development Plan
 ---
 
 1. [Introducción](#1-introducción)  
-   1.1 [Resumen del Proyecto](#11-resumen-del-proyecto)  
-   1.2 [Entregables del Proyecto](#12-entregables-del-proyecto)  
-   1.3 [Materiales de Referencia](#14-materiales-de-referencia)  
+    1.1 [Resumen del Proyecto](#11-resumen-del-proyecto)  
+    1.2 [Entregables del Proyecto](#12-entregables-del-proyecto)  
+    1.3 [Materiales de Referencia](#13-materiales-de-referencia)    
 2. [Organización del Proyecto](#2-organización-del-proyecto)  
    2.1 [Modelo de Proceso](#21-modelo-de-proceso)  
    2.2 [Estructura Organizativa](#22-estructura-organizativa)  
    2.3 [Límites Organizativos e Interfaces](#23-límites-organizativos-e-interfaces)  
-   2.4 [Responsabilidades del Proyecto](#24-responsabilidades-del-proyecto)  
+   2.4 [Roles y responsabilidades del Proyecto](#24-roles-y-responsabilidades-del-proyecto)  
 3. [Proceso de Gestión](#3-proceso-de-gestión)  
    3.1 [Objetivos y Prioridades de Gestión](#31-objetivos-y-prioridades-de-gestión)  
    3.2 [Suposiciones, Dependencias y Restricciones](#32-suposiciones-dependencias-y-restricciones)  
@@ -38,11 +38,7 @@ title: 📓 IEEE Software Development Plan
    5.1 [Paquetes de Trabajo](#51-paquetes-de-trabajo)  
    5.2 [Dependencias](#52-dependencias)  
    5.3 [Requisitos de Recursos](#53-requisitos-de-recursos)  
-   5.4 [Presupuesto y Asignación de Recursos](#54-presupuesto-y-asignación-de-recursos)  
-   5.5 [Cronograma](#55-cronograma)  
-6. [Componentes Adicionales](#6-componentes-adicionales)  
-7. [Índice](#7-índice)  
-8. [Apéndices](#8-apéndices)  
+  
 
 ---
 
@@ -67,10 +63,6 @@ Modulos a desarrollar:
 
 ---
 
-<!-- ### 1.3 Evolución del Plan de Gestión del Proyecto de Software
-Describir cómo se espera que este documento evolucione con el tiempo. -->
-
-<!-- --- -->
 
 ### 1.3 Materiales de Referencia
 
@@ -78,15 +70,9 @@ Plantilla IEEE 1058.
 Requerimientos e historias de usuario de MegaStore  
 
 
-<!-- ---
-
-### 1.4 Definiciones y Acrónimos
-Proporcionar definiciones o referencias para todos los términos y acrónimos especiales utilizados. -->
-
 ---
 
 ## 2. Organización del Proyecto
-<!-- Describir el modelo de proceso, la estructura organizativa y las responsabilidades. -->
 
 ---
 
@@ -259,28 +245,3 @@ Detallar las dependencias entre paquetes de trabajo y eventos externos.
    * Servidores, Ambiente de desarrollo y pruebas.
  * Recursos financieros
 ---
-<!-- 
----
-
-### 5.4 Presupuesto y Asignación de Recursos
-Describir cómo se asignará el presupuesto entre las diferentes funciones. -->
-
-<!-- ---
-
-### 5.5 Cronograma
-Detallar el cronograma para las diferentes funciones y entregables del proyecto. -->
-
-<!-- ---
-
-## 6. Componentes Adicionales
-Incluir cualquier componente adicional necesario para la gestión del proyecto.
-
----
-
-## 7. Índice
-El índice es opcional.
-
----
-
-## 8. Apéndices
-Incluir detalles de apoyo que sean demasiado extensos para el cuerpo principal del documento. -->
