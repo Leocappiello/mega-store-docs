@@ -12,12 +12,7 @@ title: 📓 IEEE Software Development Plan
 ## Revision Chart
 | Version      | Primary Author(s) | Description of Version                                    | Date Completed |
 |--------------|--------------------|----------------------------------------------------------|----------------|
-| Draft        | TBD                | Initial draft created for distribution and review comments | TBD            |
-| Preliminary  | TBD                | Second draft incorporating initial review comments       | TBD            |
-| Final        | TBD                | First complete draft, which is placed under change control| TBD            |
-| Revision 1   | TBD                | Revised draft, revised according to the change control process | TBD        |
-| Revision 2   | TBD                | Revised draft, revised according to the change control process | TBD        |
-| etc.         | TBD                | TBD                                                      | TBD            |
+| Draft        | Cappiello Leonel                | Initial draft  | 28/09/2024            |
 
 ---
 
@@ -25,8 +20,6 @@ title: 📓 IEEE Software Development Plan
    1.1 [Resumen del Proyecto](#11-resumen-del-proyecto)  
    1.2 [Entregables del Proyecto](#12-entregables-del-proyecto)  
    1.3 [Materiales de Referencia](#14-materiales-de-referencia)  
-   <!-- 1.3 [Evolución del Plan de Gestión del Proyecto de Software](#13-evolución-del-plan-de-gestión-del-proyecto-de-software)   -->
-   <!-- 1.4 [Definiciones y Acrónimos](#15-definiciones-y-acrónimos)   -->
 2. [Organización del Proyecto](#2-organización-del-proyecto)  
    2.1 [Modelo de Proceso](#21-modelo-de-proceso)  
    2.2 [Estructura Organizativa](#22-estructura-organizativa)  
@@ -37,7 +30,6 @@ title: 📓 IEEE Software Development Plan
    3.2 [Suposiciones, Dependencias y Restricciones](#32-suposiciones-dependencias-y-restricciones)  
    3.3 [Mecanismos de Seguimiento y Control](#33-mecanismos-de-seguimiento-y-control)  
    3.4 [Plan de Personal](#34-plan-de-personal)  
-   <!-- 3.3 [Gestión de Riesgos](#33-gestión-de-riesgos)   -->
 4. [Proceso Técnico](#4-proceso-técnico)  
    4.1 [Métodos, Herramientas y Técnicas](#41-métodos-herramientas-y-técnicas)  
    4.2 [Documentación de Software](#42-documentación-de-software)  
@@ -133,12 +125,12 @@ Relaciones externas:
 
 ### 2.4 Roles y responsabilidades del Proyecto
 
-* **Gerente del proyecto**: Responsable de la planificación general, seguimiento y cumplimiento de los objetivos del proyecto
-* **Desarrollador backend**: Encargado de desarrollar el apartado relacionado con la logica de negocio, bases de datos, endpoints y su documentacion correspondiente.
-* **Desarrollador frontend**: Encargado de desarrollar el apartado relacionado a la interfaz visual, diseño, experiencia de usuario y su documentacion correspondiente.
-* **Analista de sistemas**: Responsable de capturar, analizar y definir requisitos del sistema que seran procesados y detallados en especificaciones tecnicas utilizadas por los desarrolladores.
-* **Analista de pruebas**: Realiza la verificacion y validacion de funcionalidad en el software escribiendo pruebas (unitarias, de integracion) que facilitan la revision del producto desarrollado.
-* **Cliente**: Provee retroalimentacion sobre los distintos entregables y realiza una validacion sobre las funcionalidades, el cumplimiento de las expectativas y objetivos pactados.
+* **Gerente del proyecto:** Responsable de la planificación general, seguimiento y cumplimiento de los objetivos del proyecto
+* **Desarrollador backend:** Encargado de desarrollar el apartado relacionado con la logica de negocio, bases de datos, endpoints y su documentacion correspondiente.
+* **Desarrollador frontend:** Encargado de desarrollar el apartado relacionado a la interfaz visual, diseño, experiencia de usuario y su documentacion correspondiente.
+* **Analista de sistemas:** Responsable de capturar, analizar y definir requisitos del sistema que seran procesados y detallados en especificaciones tecnicas utilizadas por los desarrolladores.
+* **Analista de pruebas:** Realiza la verificacion y validacion de funcionalidad en el software escribiendo pruebas (unitarias, de integracion) que facilitan la revision del producto desarrollado.
+* **Cliente:** Provee retroalimentacion sobre los distintos entregables y realiza una validacion sobre las funcionalidades, el cumplimiento de las expectativas y objetivos pactados.
 
 ---
 
@@ -147,7 +139,7 @@ Relaciones externas:
 ---
 
 ### 3.1 Objetivos y Prioridades de Gestión
-**Objetivos del proyecto**:
+**Objetivos del proyecto:**
  - <ins>Entrega a tiempo</ins>: Cumplir con el cronograma establecido, garantizando las principales fases y entregables del proyecto completados dentro de las fechas previstas.
 
  - <ins>Calidad del producto</ins>: Asegurar que el software desarrollado cumpla con los estandares de calidad acordados, ofreciendo un producto robusto, seguro y con bajo indice de defectos.
@@ -223,8 +215,8 @@ El equipo estara conformado por:
 ### 4.2 Documentación de Software
 
  * **Plan de desarrollo de software** (El documento presente).
- * **Plan de comunicaciones**: <a href="https://google.com" >Plan de Comunicaciones</a>
- * **Listado de User stories**: <a href="https://google.com" >Listado de US</a>
+ * **Plan de comunicaciones:** <a href="/docs/communicationPlanning" >Plan de Comunicaciones</a>
+ * **Listado de User stories:** <a href="/docs/us" >Listado de US</a>
 
 ---
 
