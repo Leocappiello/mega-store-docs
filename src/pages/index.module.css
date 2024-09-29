@@ -21,3 +21,39 @@
   align-items: center;
   justify-content: center;
 }
+
+.prueba {
+  display: flex;
+  justify-content: center;
+}
+
+.prueba {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc(100% - 6rem);
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  width: fit-content;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  background: var(--background-main);
+  background: var(--background-main-gradient)
+}
+
+.imgContainer img {
+  max-width: 250px;
+  margin: 2rem;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
