@@ -9,6 +9,10 @@ title: 🔊Software Communication Plan
 
 ---
 
+<a href="/docs/communicationPlanning/why-discord">¿Por qué Discord?</a>
+
+---
+
 ## Tabla de contenido
 1. [Informacion del proyecto](#1-informacion-del-proyecto)  
 2. [Restricciones y premisas](#2-restricciones-y-premisas)  
