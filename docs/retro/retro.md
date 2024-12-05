@@ -7,34 +7,71 @@ title: 🔙 Retro
 **Date:** 28 de Septiembre, 2024  
 **Authors:** Cappiello, Leonel  
 
+
+---
+
+| Version      | Autor            | Descripcion                                            | Fecha |
+|--------------|--------------------|----------------------------------------------------------|----------------|
+| Draft        | Cappiello Leonel| Primera version sujeta a revisiones                | 28/09/2024  |
+| 1.1        | Cappiello Leonel| Segunda version                | 05/12/2024  |
+
 ---
 ## Retrospective
 ---
 
 ## <span class="good">Lo que salió bien</span>  
- * La implementación del formulario de inicio de sesión fue completada satisfactoriamente y sin problemas.
- * La integración del envío de correos electrónicos para la verificación de cuentas funcionó correctamente en los distintos entornos.
- * La generación de códigos para la autenticación de dos factores (2FA) se implementó de manera exitosa y se integró con la interfaz de usuario.
- * El uso de un framework backend robusto, optimizado para la creación rápida de APIs REST, permitió un desarrollo ágil y eficiente de los módulos clave.
+ * El uso de tecnologias modernas con frameworks populares facilito la implementacion
+ de manera agil.
 
 ---
 ## <span class="bad">Lo que no salió tan bien</span>  
- * Los modelos de la base de datos tuvieron que ser rediseñados debido a errores en la planificación inicial, lo que causó retrasos en la implementación.
- * La implementación inicial de la autenticación mediante JWT (JSON Web Tokens) presentó errores que requirieron una refactorización para garantizar su correcto funcionamiento.
- * Hubo problemas con el contenido de los tokens de autenticación, que no incluían el rol de los usuarios, lo que obligó a modificar el sistema para facilitar la identificación de roles en el frontend.
+ * El uso de una libreria de estado nueva para el equipo en el frontend provoco un poco
+ de retraso hasta que logro familiarizarse.
+ * El testing fue un reto ya que el equipo no contaba con la formacion adecuada para la 
+ creacion de test unitarios.
+ * La escasa cantidad de integrantes del equipo provoco demoras significativas en el 
+ desarrollo que influyeron directamente en la cantidad de objetivos alcanzados.
 
 ---
 
 ## <span class="opportunity">Oportunidades de mejora</span>  
  * Implementar un sistema de integración continua (CI) para automatizar las pruebas y despliegues de nuevas actualizaciones. Herramientas como Jenkins o GitHub Actions pueden ayudar a detectar problemas en el código antes de que lleguen a producción.
- * Revisar el diseño de los modelos de la base de datos en fases más tempranas para evitar errores en la estructura y relaciones entre tablas.
- * Mejorar la comunicación entre el frontend y el backend, definiendo una convención clara para los tokens de autenticación, asegurando que contengan toda la información relevante (como el rol del usuario).
- * La UI puede ser mejorada para ser mas atractiva para el usuario.
+ * El equipo podria explorar formas de capacitacion o adquisicion de nuevos integrantes
+ que posean algun tipo de experiencia en areas no tan formadas como testing.
 
 ---
 
 ## <span class="actions">Acciones a tomar</span>  
- * Iniciar el desarrollo de pruebas unitarias para los módulos más críticos, como la autenticación, la gestión de usuarios y la generación de códigos 2FA.
- * Implementar revisiones de diseño de base de datos con el equipo antes de cualquier implementación para reducir la probabilidad de errores en la estructura y evitar retrasos.
- * Optimizar el manejo de tokens de autenticación: Modificar los tokens JWT para incluir datos adicionales, como los roles de usuario, y garantizar que el frontend pueda acceder fácilmente a esta información sin afectar la seguridad.
- * Analizar opciones de mejora y consistencia de la UI.
+ * Iniciar el desarrollo de pruebas unitarias de manera mas temprana en el sprint.
+ * Administrar mejor el tiempo disponible en el equipo de manera definida y plantear
+ de manera mas realista los objetivos alcanzables.
+ 
+ ---
+
+# Plan de accion
+---
+
+## 1. Definir objetivos
+
+### Objetivo general:
+
+Mejorar las habilidades tecnicas del equipo (como por ejemplo testing) y explorar posibilidades de contratacion de 
+mayor cantidad de personal para desarrollar en conjunto las diferentes funcionalidades
+del software.
+
+## 2. Areas de mejora
+
+ * Testing: Profundizar en la creacion de tests previamente y asignar dicha responsabilidad
+ a un integrante que preferentemente tenga experiencia con ello.
+ * Equipo: Explorar la posibilidad de adquirir nuevos integrantes, en lo posible con experiencia en las areas y tecnologias utilizadas en el proyecto.
+
+## 3. Indicadores de exito
+
+1. Aumento de las funcionalidades desarrolladas y las historias de usuario.
+2. Incremento en la cantidad de pruebas realizadas y su calidad.
+3. Mayor satisfaccion del cliente y del equipo.
+
+## 4. Monitoreo y evaluacion
+
+ * Frecuencia: Semanal
+ * Responsables: Lider del proyecto y equipo tecnico.
