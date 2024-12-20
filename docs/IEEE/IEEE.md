@@ -18,8 +18,9 @@ title: 📓 IEEE Software Development Plan
 
 1. [Introducción](#1-introducción)  
     1.1 [Resumen del Proyecto](#11-resumen-del-proyecto)  
-    1.2 [Entregables del Proyecto](#12-entregables-del-proyecto)  
-    1.3 [Materiales de Referencia](#13-materiales-de-referencia)    
+    1.2 [Alcance del Proyecto](#12-alcance-del-proyecto)  
+    1.3 [Entregables del Proyecto](#13-entregables-del-proyecto)  
+    1.4 [Materiales de Referencia](#14-materiales-de-referencia)    
 2. [Organización del Proyecto](#2-organización-del-proyecto)  
    2.1 [Modelo de Proceso](#21-modelo-de-proceso)  
    2.2 [Estructura Organizativa](#22-estructura-organizativa)  
@@ -51,7 +52,13 @@ Este proyecto tiene como objetivo el desarrollo de una plataforma de comercio el
 
 ---
 
-### 1.2 Entregables del Proyecto
+### 1.2 Alcance del Proyecto
+
+El sistema se encuentra enfocado en funcionalidades basicas de gestion de usuarios, productos, marcas, categorias y stock.
+
+---
+
+### 1.3 Entregables del Proyecto
 
 Modulos a desarrollar:
  - Gestion de usuarios y cuentas
@@ -64,7 +71,7 @@ Modulos a desarrollar:
 ---
 
 
-### 1.3 Materiales de Referencia
+### 1.4 Materiales de Referencia
 
 Plantilla IEEE 1058.  
 Requerimientos e historias de usuario de MegaStore  
@@ -245,3 +252,42 @@ Detallar las dependencias entre paquetes de trabajo y eventos externos.
    * Servidores, Ambiente de desarrollo y pruebas.
  * Recursos financieros
 ---
+
+### Control de cambios
+---
+El Control de Cambios asegura que cualquier modificación en el proyecto se gestione de forma controlada y documentada, minimizando su impacto en el alcance, cronograma, recursos y calidad del producto final.
+
+#### Procedimiento de Control de Cambios
+ * Identificación del Cambio:
+El cambio puede ser solicitado por cualquier miembro del equipo o cliente. Debe incluir una descripción, justificación y el impacto esperado en el proyecto (alcance, tiempo, costos, recursos).
+
+ * Solicitud de Cambio:
+Formalización mediante una solicitud escrita que detalla el cambio solicitado y su justificación.
+
+ * Evaluación:
+El comité de control de cambios evalúa el impacto técnico, de recursos, costos y tiempo de implementar el cambio. También se revisa su prioridad.
+
+ * Aprobación o Rechazo:
+El comité decide si aprobar o rechazar el cambio basado en la evaluación. Si se aprueba, se actualizan los documentos del proyecto (plan, cronograma, etc.).
+
+ * Implementación:
+El cambio aprobado se implementa, y se realizan pruebas para asegurar que no afecte otras áreas del proyecto.
+
+ * Documentación:
+Todos los cambios deben ser registrados detalladamente, incluyendo la solicitud, evaluación, decisión y ejecución.
+
+ * Comunicación:
+El cambio y su impacto deben ser comunicados a todas las partes involucradas, incluidos el cliente y el equipo.
+
+### Herramientas de Soporte
+ * Jira para seguimiento de solicitudes de cambio.
+ * Git para control de versiones y gestión de código.
+ * Reuniones periódicas para revisión y validación de cambios.
+
+El control de cambios asegura que el proyecto mantenga su alineación con los objetivos, cronograma y calidad, permitiendo una gestión eficaz de modificaciones a lo largo del ciclo de vida del proyecto.
+
+---
+
+### Control de calidad
+---
+No Aplica

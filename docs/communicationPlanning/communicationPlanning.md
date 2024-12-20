@@ -13,85 +13,77 @@ title: 🔊Software Communication Plan
 
 ---
 
-## Tabla de contenido
-1. [Informacion del proyecto](#1-informacion-del-proyecto)  
-2. [Restricciones y premisas](#2-restricciones-y-premisas)  
-3. [Tabla de requerimientos de Comunicación del Proyecto](#3-tabla-de-requerimientos-de-comunicación-del-proyecto)  
-4. [Recursos asignados a actividades de comunicaciones](#4-recursos-asignados-a-actividades-de-comunicaciones)  
-5. [Glosario](#5-glosario)  
+La comunicacion es una de las bases fundamentales para poder definir requisitos y expectativas entre el cliente y el equipo encargado del proyecto Megastore, 
+en esta oportunidad emplearemos la plataforma Discord para poder realizar cualquier tipo de intercambio de informacion y gestion de las distintas actividades.
 
+---
+## Objetivos
+1. Establecer un medio de comunicacion claro para facilitar la comunicacion entre los miembros del equipo y el cliente,
+asegurando seguir los lineamientos y metas del proyecto.
+2. Brindar documentacion tecnica que permita al cliente entender el funcionamiento e informacion valiosa del proyecto.
+3. Crear un entorno de trabajo colaborativo y organizado para todo el equipo.
 
 ---
 
-## 1. Informacion del proyecto
+### Restricciones
 
-| Version      | Autor            | Descripcion                                            | Fecha |
-|--------------|--------------------|----------------------------------------------------------|----------------|
-| Draft        | Cappiello Leonel| Primera version sujeta a revisiones                | 28/09/2024  |
+ * Alcance: El sistema solo funcionalidades basicas de gestion de usuarios, productos, marcas, categorias y stock.
+ * Testing: El equipo hara hincapie en pruebas automatizadas a nivel de sistema, debido a que se cuenta con experiencia
+ en este tipo de pruebas.
 
 
-| Empresa                |                                          |
-|------------------------|------------------------------------------|
-| Proyecto               | Ecommerce Mega Store                     |
-| Fecha de preparación   | 28/09/2024                               |
-| Cliente                | Mega Store S.A                          |
-| Patrocinador principal | Juan José Vanzetti - Laura Toselli      |
-| Gerente del proyecto    | Cappiello Leonel                        |
-
+### Premisas 
+ * Conocimientos: Se espera que el equipo cuente con todos los conocimientos necesarios en las diferentes tecnologias
+ utilizadas para abordar el proyecto.
+ * El proyecto sera abordado en aproximadamente 4 meses, en 2 entregas.
+ * No existe restriccion de presupuesto.
 
 ---
 
-### 2. Restricciones y premisas
 
-#### Restricciones
+| Comunicaciones           | Objetivo                                | Contenido                                                     | Formato   | Medio     | Frecuencia | Responsable     | Aprobador       | Audiencia Receptores       |
+|--------------------------|-----------------------------------------|---------------------------------------------------------------|-----------|-----------|------------|-----------------|-----------------|----------------------------|
+| Reunión de Inicio         | Alinear expectativas      | Alcance, roles, plazos                                         | Reunión   | Presencial| Una vez    | Todo el equipo  | Gerente de proyecto | Todo el equipo, Cliente   |
+| Informe de Avance        | Informar respecto al progreso del desarrollo | Actualización del estado, hitos alcanzados y futuros pasos | Informe  | Email     | Semanal    | Todo el equipo  | Gerente de Proyecto | Equipo de desarrollo      |
+| Reuniones de equipo       | Coordinar tareas y resolver problemas   | Definir agenda                    | Reunión   | Discord   | Semanal    | Todo el equipo  | Gerente de Proyecto | Todos los involucrados     |
+| Feedback del Cliente      | Asegurar alineación con las expectativas | Comentarios sobre entregas                                     | Correo    | Email     | Semanal    | Cliente         | Gerente de Proyecto | Gerente y Desarrolladores  |
 
-1. Tecnologias definidas: Se debe utilizar Nestjs con Typescript/Javascript para el backend, React con Vite para el frontend, MySQL como base de datos, y Git para el control de versiones.
-2. Testing: Se utilizaran Jest, Selenium y Cucumber para realizar pruebas automatizadas.
-3. Alcance limitado: El MVP se centrara en las funcionalidades basicas como gestion de usuarios, ventas, stock, reportes y metricas.
 
-#### Premisas
-
-1. Compromiso del cliente: Se asume que el cliente estara comprometido con el proyecto y participara activamente en las reuniones y discusiones relevantes para la toma de decisiones.
-2. Capacitacion adecuada en herramientas de comunicacion: Se asume que el equipo empleara diferentes tipos de comunicacion, ademas de poseer la capacidad y conocimientos necesarios para utilizarlas.
-3. No hay restricciones en el presupuesto del proyecto.
----
-
-### 3. Tabla de requerimientos de Comunicación del Proyecto
-
-| Comunicaciones       | Objetivo                                         | Contenido                                                                 | Formato           | Medio               | Frecuencia  | Responsable | Aprobador | Audiencia Receptores               |
-|----------------------|--------------------------------------------------|---------------------------------------------------------------------------|--------------------|---------------------|-------------|-------------|-----------|-------------------------------------|
-| Kickstart            | Definir las expectativas del cliente             | Roles, plazos de entrega, user stories, objetivos y alcance del sistema   | Reunión por llamada | Virtual - Google Meet | Única vez   |             | Cliente   | Equipo y stakeholders                |
-| Informe de avances   | Informar el progreso del desarrollo              | Actualización del progreso, definición de metas alcanzadas, exposición de próximos objetivos a alcanzar | Reunión por llamada | Virtual - Google Meet | Semanal     |             |           | Equipo de desarrollo y gerente       |
-| Daily meeting        | Resolver dudas y problemas, actualizar el estado de tareas | Decisiones, consultas técnicas y de negocio, tiempos esperados           | Reunión por llamada | Virtual - Discord     | Diaria      |             |           | Equipo de desarrollo y gerente       |
-| Feedback             | Validar y verificar el cumplimiento de las expectativas del cliente | Validación, correcciones y comentarios a tener en cuenta para futuras entregas | Reunión por llamada | Virtual - Google Meet | Cada 14 días | Cliente     |           | Todos                               |
-
-### 4. Recursos asignados a actividades de comunicaciones
-
-Recursos humanos:
- * Gerente del proyecto
- * Analista de sistemas
- * Analista de pruebas
- * Desarrolladores
-
-Herramientas tecnicas:
- * Git: Gestionar cambios en el codigo, versionado y alteraciones en la documentacion.
- * Github: Proveer un repositorio remoto donde almacenar el historial de cambios de manera accesible y respaldada para el equipo.
- * Discord: Plataforma de comunicacion para compartir recursos, realizar reuniones y consultas, coordinar tareas y actividades relacionadas.
-
-Materiales de comunicacion:
- * Documentacion tecnica: Provista de manera estatica en Github con Github Pages, la documentacion permitira a todos los integrantes acceder a los documentos del proyecto respectivamente.
+No aplica la columna “Plazo para confirmar recepción”.
 
 ---
 
-### 5. Glosario
+### Formato y frecuencia de las reuniones
 
-| Termino                | Definicion                                          |
-|------------------------|------------------------------------------|
-| Ecommerce               | Plataforma de comercio electronico, utilizado para hacer transacciones mediante el uso de internet.                     |
-| Frontend   | Apartado visual, diseño, y experiencia de usuario destinados a la interaccion directa con el usuario final de la aplicacion web.                               |
-| Backend                | Apartado logico encargado de recibir peticiones y brindar una API al frontend para poder realizar operaciones y consultas a una base de datos.                          |
-| Testing    | Proceso en el cual el software es sometido pruebas para verificar y validar el correcto funcionamiento de cada uno de sus casos de uso. |
-| MVP | Minimum Valuable Product o Producto Minimo Viable, es la version minima de un producto capaz de contener las funcionalidades minimas para entregar valor al cliente y este ultimo este dispuesto a comprarlo.     |
-| Kickstart | Patada incial, momento de inicio de las actividades.     |
-| Feedback | Retroalimentacion.     |
-| Daily meeting | Reunion diaria entre integrantes de un equipo de desarollo.     |
+Las reuniones se realizan de manera semanal, se realizaran reuniones con formato de dailys de manera periodica 2 veces a la semana, todas las semanas, para definir
+tareas a realizar, complicaciones y futuros pasos via Discord.
+
+ * Canal de comunicacion interno del equipo: Discord, Personalmente, Github
+ * Canal de comunicacion con el cliente: Discord, Personalmente y Gmail
+
+---
+
+## Implementacion y Capacitacion
+### Implementación: 
+
+Tanto para la comunicación del equipo y el cliente, se utilizará Discord como plataforma de comunicación.
+Se creará un servidor dedicado para el proyecto Megastore, con diferentes canales de texto y voz, organizados área de
+trabajo.
+
+Estructura de Canales:
+ * #general
+ * #backend
+ * #frontend
+ * #testing
+ * #dudas
+
+### Capacitación: 
+
+No aplica
+
+---
+
+## Estrategias de promoción
+
+ * Integracion con Github para seguimiento de los cambios en el proyecto y actualizaciones.
+
